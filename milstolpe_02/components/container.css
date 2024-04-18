@@ -1,0 +1,54 @@
+#games,
+#characters {
+    width: 350px;
+
+    flex-basis: 0;
+    flex-grow: 1;
+
+    border-image-source: url("https://64.media.tumblr.com/6f0c2efb2b0902a5907c60c9d1dcad9e/9b9e0ed89a039867-11/s75x75_c1/90da82e9674eafbcc1f84f71303f353726a700b5.pnj");
+    border-image-repeat: repeat;
+    border-image-slice: 8;
+    border-image-width: 8px;
+    background-color: #ffffff97;
+}
+
+h1 {
+    border-bottom: black 1px solid;
+    padding: 28px 20px 20px 20px;
+    margin: 0 8px;
+
+    text-transform: capitalize;
+    font-family: Superscript;
+
+    color: #f8b9ce;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    grid-column: 1 / 5;
+    height: 35px;
+}
+
+#listInfo h2 {
+    margin: auto;
+    text-transform: uppercase;
+}
+
+#games p,
+#characters p{
+    padding: 0 10px;
+}
+
+#listInfo {
+    border-bottom: 1px solid black;
+    margin: 0 8px 20px 8px;
+
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+    font-family: SpaceMono;
+    font-size: 10px;
+}

@@ -1,0 +1,31 @@
+#counter {
+    font-family: SpaceMono;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+    margin-top: 50vh;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    color: #fff5f8;
+    background-color: #f9cddc;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: rgb(54, 54, 54) 1px 1px;
+}
+
+#charsCounter,
+#favsCounter,
+#gamesCounter {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+#gamesCounter {
+    gap: 130px;
+}

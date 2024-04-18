@@ -1,0 +1,138 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "sebbe",
+            "password": "arya"
+        },
+        {
+            "id": 1,
+            "name": "erik",
+            "password": "kombucha"
+        },
+        {
+            "name": "DeoHard",
+            "password": "l\u00f6senord",
+            "id": 4
+        },
+        {
+            "name": "Luci",
+            "password": "WDU123!",
+            "id": 5
+        },
+        {
+            "name": "test",
+            "password": "123",
+            "id": 6
+        }
+    ],
+    "games": [
+        {
+            "id": 1,
+            "user_id": 2,
+            "name": "Chess",
+            "favorite": true,
+            "rating": 5
+        },
+        {
+            "id": 2,
+            "user_id": 1,
+            "name": "Dungeon and Dragons",
+            "favorite": true,
+            "rating": 5
+        },
+        {
+            "id": 3,
+            "user_id": 2,
+            "name": "Backgammon",
+            "favorite": true,
+            "rating": 5
+        },
+        {
+            "name": "God of War: Ragnar\u00f6k",
+            "rating": 10,
+            "favorite": true,
+            "user_id": 4,
+            "id": 4
+        },
+        {
+            "name": "Helldivers II",
+            "rating": 9,
+            "favorite": true,
+            "user_id": 4,
+            "id": 5
+        },
+        {
+            "name": "Red Dead Redemption 2",
+            "rating": 10,
+            "favorite": false,
+            "user_id": 4,
+            "id": 6
+        },
+        {
+            "name": "Ghost of Tsushima",
+            "rating": 8,
+            "favorite": true,
+            "user_id": 5,
+            "id": 7
+        },
+        {
+            "name": "Stardew Valley",
+            "rating": 10,
+            "favorite": true,
+            "user_id": 5,
+            "id": 8
+        },
+        {
+            "name": "Sims 4",
+            "rating": 7,
+            "favorite": false,
+            "user_id": 5,
+            "id": 9
+        }
+    ],
+    "characters": [
+        {
+            "id": 1,
+            "user_id": 1,
+            "name": "Arya Stark (Game of Thrones)",
+            "favorite": true,
+            "rating": 5
+        },
+        {
+            "id": 1,
+            "user_id": 2,
+            "name": "Spiderman",
+            "favorite": false,
+            "rating": 5
+        },
+        {
+            "id": 1,
+            "user_id": 1,
+            "name": "Batman",
+            "favorite": false,
+            "rating": 5
+        },
+        {
+            "name": "Kratos of Sparta",
+            "rating": 10,
+            "favorite": false,
+            "user_id": 4,
+            "id": 2
+        },
+        {
+            "name": "Arthur Morgan",
+            "rating": 10,
+            "favorite": true,
+            "user_id": 4,
+            "id": 3
+        },
+        {
+            "name": "Jin Sakai",
+            "rating": 9,
+            "favorite": false,
+            "user_id": 5,
+            "id": 4
+        }
+    ]
+}

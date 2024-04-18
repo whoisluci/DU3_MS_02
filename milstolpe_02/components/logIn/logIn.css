@@ -1,0 +1,58 @@
+#logIn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ffffff97;
+    border-image-source: url("https://64.media.tumblr.com/6f0c2efb2b0902a5907c60c9d1dcad9e/9b9e0ed89a039867-11/s75x75_c1/90da82e9674eafbcc1f84f71303f353726a700b5.pnj");
+    border-image-repeat: repeat;
+    border-image-slice: 8;
+    border-image-width: 8px;
+    
+    padding-bottom: 30px;
+
+    height: 500px;
+    width: 500px;
+}
+
+#logIn > h1 {
+    margin-bottom:  20px;
+    text-align: center;
+}
+
+#logIn > input {
+    font-family: SpaceMono;
+    background-color: #f9cddc;
+
+    border-radius: 5px;
+    border: solid 1px black;
+
+    box-shadow: rgb(54, 54, 54) 2px 2px;
+
+    height: 50px;
+}
+
+#logIn #logInBttn,
+#registerBttn,
+#renderLogInBttn,
+#renderRegBttn {
+    height: 30px;
+    width: 80px;
+}
+
+#logIn > input::placeholder {
+    font-style: italic;
+}
+
+#logInBttn:hover,
+#registerBttn:hover,
+#renderLogInBttn:hover,
+#renderRegBttn:hover {
+    cursor: pointer;
+    box-shadow: rgb(54, 54, 54) 1px 1px;
+    color: rgb(253, 250, 250);
+}

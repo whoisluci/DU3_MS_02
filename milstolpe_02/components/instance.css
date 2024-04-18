@@ -1,0 +1,43 @@
+ul {
+    list-style: none;
+}
+
+li {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+
+    font-family: RainyHearts;
+    font-size: 20px;
+
+    padding: 10px 0;
+}
+
+li > * {
+    margin: auto;
+}
+
+li > p:nth-child(1) {
+    margin: 0;
+}
+  
+
+img {
+    width: 20px;
+    height: 20px;
+
+    cursor: pointer;
+}
+
+.delete {
+    font-family: LexendPeta;
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+#games_list,
+#characters_list {
+    padding: 0;
+    margin: 0 8px;
+}

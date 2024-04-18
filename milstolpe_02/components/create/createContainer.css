@@ -1,0 +1,56 @@
+#createAndCount {
+    padding: 20px;
+    background-color: #ffffff97;
+
+    border-image-source: url("https://64.media.tumblr.com/6f0c2efb2b0902a5907c60c9d1dcad9e/9b9e0ed89a039867-11/s75x75_c1/90da82e9674eafbcc1f84f71303f353726a700b5.pnj");
+    border-image-repeat: repeat;
+    border-image-slice: 8;
+    border-image-width: 8px;
+}
+
+#createInput {
+    display: flex;
+    gap: 10px;
+    
+    height: 30px;
+}
+
+#createInput > input,
+#createInput > select {
+    font-family: SpaceMono;
+    background-color: #f9cddc;
+
+    border-radius: 5px;
+    border: solid 1px black;
+
+    box-shadow: rgb(54, 54, 54) 2px 2px;
+}
+
+#buttonsDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+#addGame,
+#addCharacter {
+    background-color: #f9cddc;
+    padding: 10px;
+
+    font-family: Superscript;
+    font-size: 20px;
+    box-shadow: rgb(54, 54, 54) 2px 2px;
+
+    text-transform: capitalize;
+
+    border-radius: 5px;
+    border: black 1px solid;
+}
+
+#addDirector:hover,
+#addMovie:hover {
+    color:white;
+    cursor: pointer;
+    box-shadow: rgb(54, 54, 54) 1px 1px;
+}
